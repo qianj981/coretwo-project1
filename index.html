@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Garden of Forking Paths</title>
+    <link rel="stylesheet" href="project1.css">
+</head>
+<body>
+    <div class="custom-cursor"></div>
+
+    <section class="intro-section">
+        <div class="intro-text">
+            <p>To Victoria Ocampo</p>
+            <p>In his <i>A History of the World War</i> (page 212), Captain Liddell Hart reports that a planned offensive by thirteen British divisions, supported by fourteen hundred artillery pieces, against the German line at Serre-Montauban, scheduled for July 24, 1916, had to be postponed until the morning of the 29th. He comments that torrential rain caused this delay - which lacked any special significance. The following deposition, dictated by, read over, and then signed by Dr. Yu Tsun, former teacher of English at the Tsingtao Hochschule, casts unsuspected light upon this event. The first two pages are missing.</p>
+            
+            <div class="special-content">
+                <p class="divider">* * *</p>
+                <p class="centered-p">
+                    . . . and I hung up the phone. Immediately I recollected the voice that had spoken in German. It was that of Captain Richard Madden. Madden, in Viktor Runeberg's office, meant the end of all our work and - though this seemed a secondary matter, or should have seemed so to me - of our lives also. His being there meant that Runeberg had been arrested or murdered. 1 Before the sun set on this same day, I ran the same risk. Madden was implacable. Rather, to be more accurate, he was obliged to be implacable. An Irishman in the service of England, a man suspected of equivocal feelings if not of actual treachery, how could he fail to welcome and seize upon this extraordinary piece of luck: the discovery, capture and perhaps the deaths of two agents of Imperial Germany? I went up to my bedroom. Absurd though the gesture was, I closed and locked the door. I threw myself down on my narrow iron bed, and waited on my back. The never changing rooftops filled the window, and the hazy six o'clock sun hung in the sky. It seemed incredible that this day, a day without warnings or omens, might be that of my implacable death. In despite of my dead father, in despite of having been a child in one of the symmetrical gardens of Hai Feng, was I to die now? Then I reflected that all things happen, happen to one, precisely now. Century follows century, and things happen only in the present. There are countless men in the air, on land and at sea, and all that really happens happens to me . . . The almost unbearable memory of Madden's long horseface put an end to these wandering thoughts. In the midst of my hatred and terror (now that it no longer matters to me to speak of terror, now that I have outwitted Richard Madden, now that my neck hankers for the hangman's noose), I knew that the fast-moving and doubtless happy soldier did not suspect that I possessed the Secret - the name of the exact site of the new British artillery park on the Ancre. A bird streaked across the misty sky and, absently, I turned it into an airplane and then that airplane into many in the skies of France, shattering the artillery park under a rain of bombs. If only my mouth, before it should be silenced by a bullet, could shout this name in such a way that it could be heard in Germany ... My voice, my human voice, was weak. How could it reach the ear of the Chief? The ear of that sick and hateful man who knew nothing of Runeberg or of me except that we were in Staffordshire. A man who, sitting in his 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="main-container">
+        <div class="sticky-title">
+            <h1>The Garden<br>of Forking<br>Paths</h1>
+        </div>
+
+        <div class="scrolling-content">
+            <a href="page1.html" id="p1" class="poly p1">1</a>
+            <a href="page2.html" id="p2" class="poly p2">2</a>
+            <a href="page3.html" id="p3" class="poly p3">3</a>
+            <a href="page4.html" id="p4" class="poly p4">4</a>
+            <a href="page5.html" id="p5" class="poly p5">5</a>
+            <a href="page6.html" id="p6" class="poly p6">6</a>
+            <a href="page7.html" id="p7" class="poly p7">7</a>
+        </div>
+    </div>
+
+    <section class="footer">
+        <div class="footer-content">
+            <h2 class="footer-title">End of the Garden</h2>
+            <p class="signature">Julia Qian &nbsp;&nbsp; Feb 2026</p>
+        </div>
+    </section>
+
+    <script>
+        const cursor = document.querySelector('.custom-cursor');
+        document.addEventListener('mousemove', (e) => {
+            cursor.style.transform = `translate(${e.clientX - 30}px, ${e.clientY - 30}px)`;
+        });
+    </script>
+</body>
+</html>
